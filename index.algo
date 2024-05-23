@@ -1,0 +1,8 @@
+ALGORITHM Leap_year_checker(VAR year : INTEGER)
+VAR
+    nb : INTEGER := 4;
+BEGIN
+    IF (year%4 = 0 || year%100 = 0 || year%400 = 0) THEN
+        Write(year+"est une annee bissextile");
+    END_IF
+END
