@@ -1,0 +1,15 @@
+ALGORITHM fibo(VAR n : INTEGER)
+VAR
+    result : INTEGER;
+BEGIN
+    IF (n = 0) THEN
+        result := 0;
+        return result;
+    ELSE_IF (n = 1) THEN
+        result := 1; 
+        return result;
+    ELSE
+        result = fibo(n-1) + fibo(n-2);
+        return result;
+    END_IF
+END

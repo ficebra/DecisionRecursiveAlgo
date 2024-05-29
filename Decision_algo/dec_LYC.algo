@@ -1,4 +1,4 @@
-ALGORITHM Leap_year_checker(VAR year : INTEGER)
+ALGORITHM Leap_year_checker(year : INTEGER)
 VAR
     nb : INTEGER := 4;
 BEGIN

@@ -1,0 +1,17 @@
+ALGORITHM ticket_pricing(age : INTEGER)
+VAR
+    price : INTEGER;
+BEGIN
+    IF (age <= 12) THEN
+        price := 10;
+        Write("Le prix du ticket d'un enfant est de : "+price);
+
+    ELSE_IF (age >= 13 && age <= 17) THEN
+        price := 15;
+        Write("Le prix du ticket d'un adolescent est de : "+price);
+    
+    ELSE
+        price := 20;
+        Write("Le prix du ticket d'un adulte est de : "+price);
+    END_IF
+END
